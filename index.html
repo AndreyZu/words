@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Words</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- DESCRIPTION -->
+	<meta name="keywords" content="words">
+	<meta name="description" content="words">
+	<meta name="author" content="Andrey Zu">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
+
+	<!-- JS -->
+	<script async src="words.txt"></script>
+	<script async src="script.js"></script>
+</head>
+<body>
+	<h1><span id="lang">ENG</span></h1>
+	<p class="word" id="display"></p>
+	<input class="word__input" type="text" id="put" placeholder="Введите перевод слова">
+	<div class="error">Перевод не совпадает со словарём.</div>
+	<button id="send">Проверить</button>
+	<button id="help">Показать перевод</button>
+</body>
+</html>
